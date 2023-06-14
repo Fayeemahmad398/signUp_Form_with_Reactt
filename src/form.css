@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  border: 3px solid grey;
+  height: 320px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+input {
+  width: 94%;
+  margin: 3%;
+  height: 28px;
+  font-size: 18px;
+  outline: none;
+  padding: 2px;
+  border-radius: 5px;
+}
+.bigBox{
+  position: relative;
+  width: 100%;
+}
+button {
+  width: 94%;
+  margin: 3%;
+  height: 30px;
+  background: rgb(166, 166, 249);
+  font-size: 20px;
+}
+.eye{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+
+}
+@media (max-width: 350px) {
+  form {
+    width: 80%;
+  }
+}
